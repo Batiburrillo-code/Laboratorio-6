@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dfdfdf !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Inicio de estilos del menú */
+header {
+    box-shadow: 0px 5px 9px 1px #494949;
+    font-size: 1em;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.nav-secundario {
+    background-color: #909090;
+    height: 50px;
+}
+
+.nav__ul-secundario {
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.nav__ul-secundario li:hover {
+    border-bottom: solid #e9e9ff 2px;
+    background-color: #515151;
+    height: 100%;
+}
+.nav__ul-primario, .nav__ul-secundario {
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.nav__ul-primario li {
+    padding: 0px;
+    margin: auto 20px auto 0;
+    height: 100%;
+}
+.nav__ul-secundario li {
+    padding: 0 40px;
+    height: 100%;
+    flex-grow: 1;
+    justify-content: center;
+}
+.nav__ul-secundario li, .nav__ul-primario li:first-of-type {
+    font-size: 1.2em;
+}
+.nav__ul-primario li, .nav__ul-secundario li{
+    outline: solid black 0px;
+    display: flex;
+    align-items: center;
+}
+.nav__ul-secundario a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav__ul-primario a, .nav__ul-secundario a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Fin de estilos del menú */
+
+
+h1 {
+    margin: 40px;
+}
